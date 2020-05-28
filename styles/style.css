@@ -1,5 +1,10 @@
 *{
     margin: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+/* Header et Barre de navigation */
+span{
+    color: blue;
 }
 header{
     margin: 20px;
@@ -22,6 +27,12 @@ nav ul li a{
 nav ul li a:hover{
     color: blue;
 }
+/*Galerie photos*/
+#photo{
+    margin-left: auto;
+    text-align: center;
+}
 #photo img{
     width: 300px;
+    height: 300px;
 }
