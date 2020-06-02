@@ -38,3 +38,10 @@ nav ul li a:hover{
     height: 300px;
     margin-right: 5px;
 }
+
+#image_principal img
+{
+
+    height: 680px;
+    width: 100%;
+}
