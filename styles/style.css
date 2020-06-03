@@ -5,6 +5,7 @@
 /* Header et Barre de navigation */
 span{
     color: blue;
+    font-size: 40PX;
 }
 header{
     margin: 20px;
@@ -29,13 +30,13 @@ nav ul li a:hover{
 }
 /*Galerie photos*/
 #photo{
-    display: flex;
-    justify-content: center;
+    display: block;
     text-align: center;
+    margin: 10px;
 }
 #photo img{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 333px;
     margin-right: 5px;
 }
 
@@ -44,3 +45,22 @@ nav ul li a:hover{
 
     width: 100%;
 }
+/* titre galerie de photo */
+.mesphotos
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+/* mes réseaux*/
+
+p
+{
+    font-size: 23px;
+    
+}
+
