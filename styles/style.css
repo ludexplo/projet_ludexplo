@@ -1,86 +1,109 @@
-*{
-    margin: 0px;
-    font-family: 'Dosis', sans-serif;
+/* GENERAL */
+*
+{
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
 }
+
+p
+{
+	font-size: 23px;
+} 
+
 /* Header et Barre de navigation */
-span{
-    color: blue;
-    font-size: 40PX;
+header h1
+{
+	display: inline-block;
 }
-header{
-    margin: 20px;
+
+header span
+{
+	color: blue;
+	font-size: 40PX;
 }
-h1{
-    display: inline-block;
+
+header
+{
+	margin: 20px;
 }
-nav{
-    float: right;
+
+header nav
+{
+	float: right;
 }
-nav ul li{
-    display: inline;
-    margin-right: 20px;
+
+header nav ul li
+{
+	display: inline;
+	margin-right: 20px;
 }
-nav ul li a{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
+
+header nav ul li a
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
 }
-nav ul li a:hover{
-    color: blue;
+
+header nav ul li a:hover
+{
+	color: blue;
 }
+
 /*Galerie photos*/
-#photo{
-    display: block;
-    text-align: center;
-    margin: 10px;
+#photo
+{
+	display: block;
+	text-align: center;
+	margin: 10px;
 }
-#photo img{
-    
-    height: 333px;
-    margin-right: 5px;
+
+#photo img
+{
+	height: 333px;
+	margin-right: 5px;
 }
 
 #image_principal img
 {
-
-    width: 100%;
+	width: 100%;
 }
+
 /* titre galerie de photo */
 .mesphotos
 {
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    margin:50px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	margin:50px 0;
 }
-
-
 
 /* mes réseaux*/
 
-p
-{
-    font-size: 23px;
-    
-}
-
 footer
 {
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
 }
 
-footer img{
-    height: 100px;
+footer img
+{
+	height: 100px;
 }
-footer p{
-    margin: 0 100px;
+
+footer p
+{
+	margin: 0 100px;
 }
-#sosbackup a{
-    text-decoration: none; 
+
+#sosbackup a
+{
+	text-decoration: none;
 }
-#sosbackup{
-    font-size: 17px;
+
+#sosbackup
+{
+	font-size: 17px;
 }
