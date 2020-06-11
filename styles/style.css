@@ -1,3 +1,4 @@
+
 /* GENERAL */
 *
 {
@@ -8,25 +9,28 @@
 p
 {
 	font-size: 1em;
-} 
-
+}
 
 /* Header et Barre de navigation */
-#en-tete{
+#en-tete
+{
 	width: 0px;
 }
 
-header h1{
-    line-height: 1.2;
-    margin-top: 2.5%;
-    font-weight: 500;
-    font-size: 4vh;  
+header h1
+{
+	line-height: 1.2;
+	margin-top: 2.5%;
+	font-weight: 500;
+	font-size: 4vh;
 	text-align: right;
 }
-header h2{
-    text-align: right;
-    font-size: 35px;
-    color: #92c600;
+
+header h2
+{
+	text-align: right;
+	font-size: 35px;
+	color: #92c600;
 	margin: 1.5%;
 }
 
@@ -46,8 +50,6 @@ header
 	margin: 20px;
 }
 
-
-
 header nav ul li
 {
 	margin-right: 20px;
@@ -66,74 +68,94 @@ header nav ul li a:hover
 }
 
 /* BARRE DE NAVIGATION RESPONSIVE */
-
-.menu{
+.menu
+{
 	display: none;
 	flex-basis: 100%;
 }
 
-.menu-checkbox:checked ~.menu{
+.menu-checkbox:checked ~.menu
+{
 	display:block;
 }
 
-.menu-checkbox{
+.menu-checkbox
+{
 	position: absolute;
 	top: -5000px;
-	opacity: 0;	
+	opacity: 0;
 }
 
-#barre-menu{
+#barre-menu
+{
 	font-size: 25px;
 	color: #868686;
 }
-.menu-toggle{
+
+.menu-toggle
+{
 	margin-left: 15px;
 	padding: 2px;
 	font-size: 20px;
 }
-.menu-checkbox:focus + .menu-toggle{
-	outline: #0e99d8 auto 5px;
-}
-.menu-checkbox:hover + .menu-toggle{
+
+.menu-checkbox:focus + .menu-toggle
+{
 	outline: #0e99d8 auto 5px;
 }
 
-nav{
+.menu-checkbox:hover + .menu-toggle
+{
+	outline: #0e99d8 auto 5px;
+}
+
+nav
+{
 	flex-wrap: wrap;
-    margin-left: 0 10%; 
+	margin-left: 0 10%;
 }
 
-header nav  ul{
+header nav  ul
+{
 	display: table;
-    width: 80%;
-    height: 80%;
-    margin: 10px auto;
-    padding: 0;
+	width: 80%;
+	height: 80%;
+	margin: 10px auto;
+	padding: 0;
 }
 
-header nav li{
+header nav li
+{
 	list-style: none;
 	text-transform: uppercase;
 	font-weight: bold;
 }
-header nav ul li a{
-		color: #444;
+
+header nav ul li a
+{
+	color: #444;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover
+{
 	color: #0e99d8;
 }
 
-@media screen and (min-width: 40em){
-	.menu-toggle, .menu-checkbox{
+@media screen and (min-width: 40em)
+{
+	.menu-toggle, .menu-checkbox
+	{
 		display: none;
 	}
-	
-	.menu{
+
+	.menu
+	{
 		display: block;
 		flex-basis: auto;
 	}
-	.menu li{
+
+	.menu li
+	{
 		display: inline-block;
 	}
 }
@@ -148,7 +170,8 @@ header nav ul li a:hover{
 
 #photo img
 {
-	height: 333px;
+	height: 50%;
+	width: 50%;
 	margin-right: 5px;
 }
 
@@ -167,7 +190,6 @@ header nav ul li a:hover{
 }
 
 /* mes réseaux*/
-
 footer
 {
 	text-decoration: none;
@@ -197,10 +219,11 @@ footer p
 }
 
 /* responsive */
-
-@media screen and (max-width: 60em){
-    .responsive{
-        font-size: 19px;
-        margin: 0 5px;
-    }
+@media screen and (max-width: 60em)
+{
+	.responsive
+	{
+		font-size: 19px;
+		margin: 0 5px;
+	}
 }
