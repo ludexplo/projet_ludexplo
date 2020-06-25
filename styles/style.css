@@ -14,10 +14,15 @@ p
     margin: 20px 90px;
 }
 
+
+
 /* Header et Barre de navigation */
 #en-tete
 {
 	width: 0px;
+}
+#en-tete a{
+    color: black;
 }
 
 header h1
@@ -69,6 +74,7 @@ header nav ul li a:hover
 {
 	color: blue;
 }
+
 
 /* BARRE DE NAVIGATION RESPONSIVE */
 .menu
@@ -161,8 +167,9 @@ header nav ul li a:hover
 	{
 		display: inline-block;
 	}
+    
 }
-/* responsive du paragraphe*/
+/* Responsive du paragraphe*/
 @media screen and (max-width: 60em)
 {
 	.responsive
@@ -173,30 +180,41 @@ header nav ul li a:hover
     #contact img{
     height: 80px ;        
 }
+    /* Responsive photos*/
+    .photo img
+{
+    width: 70%;
+	margin-right: 5px;
+}
 
 }
 
 /*Galerie photos*/
-#photo
+.photo
 {
 	display: block;
 	text-align: center;
 	margin: 10px;
 }
 
-#photo img
-{
-	height: 50%;
-	width: 50%;
-	margin-right: 5px;
-}
 
 #image_principal img
 {
 	width: 100%;
 }
+.photo img
+{
+    transition: 0.2s;
+	margin-right: 5px;
+}
+.photo img:hover
+{
+    transform: scale(1.1);
+}
 
-/* titre galerie de photo */
+
+
+/* Titre galerie de photo */
 .mesphotos
 {
 	text-align: center;
@@ -217,6 +235,10 @@ footer
 footer img
 {
 	height: 100px;
+}
+footer img:hover
+{
+	transform: scale(1.1);
 }
 
 footer p
