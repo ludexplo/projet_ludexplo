@@ -61,6 +61,7 @@ header
 header nav ul li
 {
 	margin-right: 20px;
+    text-decoration: none;
 }
 
 header nav ul li a
@@ -73,6 +74,44 @@ header nav ul li a
 header nav ul li a:hover
 {
 	color: blue;
+    text-decoration: none;
+}
+
+ 
+nav ul li {
+list-style: none;
+line-height:44px;
+
+background-color:#FFF;
+text-decoration: none;
+}
+ 
+nav ul li a {
+color:#FFF;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+ 
+li a:hover {
+
+}
+nav ul li ul { display:none; /* Rend le menu déroulant caché par défaut */
+text-decoration: none;
+} 
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+text-decoration: none;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+text-decoration: none;
 }
 
 
@@ -87,6 +126,8 @@ header nav ul li a:hover
 {
 	display:block;
 }
+
+
 
 .menu-checkbox
 {
@@ -122,6 +163,7 @@ nav
 {
 	flex-wrap: wrap;
 	margin-left: 0 10%;
+    text-decoration: none;
 }
 
 header nav  ul
@@ -131,6 +173,7 @@ header nav  ul
 	height: 80%;
 	margin: 10px auto;
 	padding: 0;
+    text-decoration: none;
 }
 
 header nav li
